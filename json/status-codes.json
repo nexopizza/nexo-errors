@@ -1,0 +1,27 @@
+[
+    {
+        "code": "SYS-XXXX",
+        "phrase": "**Informational**",
+        "description": "Errors related to the system (back-end, broker, database, ...).",
+    },
+    {
+        "code": "NET-XXXX",
+        "phrase": "**Informational**",
+        "description": "Errors related to the network, for example, when communicating between microservices, or from app to the backend.",
+    },
+    {
+        "code": "DAT-XXXX",
+        "phrase": "**Informational**",
+        "description": "Errors related to the data format, for example, when a place order payload format is wrong.",
+    },
+    {
+        "code": "SEC-XXXX",
+        "phrase": "**Informational**",
+        "description": "Errors related security, for example, when a user tries to access a resource without having permissions.",
+    },
+    {
+        "code": "THP-XXXX",
+        "phrase": "**Informational**",
+        "description": "Errors related to third party components, for example when occuring in a library.",
+    }
+]
